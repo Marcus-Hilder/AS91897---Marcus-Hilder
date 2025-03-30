@@ -4,9 +4,7 @@ header {
     font-style: normal;
   }
   
-nav{
-    
-}
+
 #nerm{
     background-color: #D9D9D9;
     height: 120px;
@@ -28,27 +26,59 @@ nav{
     text-align: justify;
     margin: 0px 0px 0px 0px;
     color: #ffffff;
+    height: 0;
+    background-color: bisque;
+    position: relative;
+    transform: translateX(-150px);
+    
+}
+#links ul {
+    display: none; /* Hide the menu initially */
+    position: absolute;
+    top: 50px; /* Adjust positioning */
+    left: 0;
+    background-color: #6FD5B4;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+#links li{
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
 }
 #links img{
     height: 40px;
     width: auto;
-    position: ;
+    transform: translatex(-0px);
+    position: absolute;
+    margin-left: 20px;
+    
 }
 
-#links:hover li {
-    color: black;
-    animation: move;
-    position: relative;
-    rotate: 90;
+#links:hover {
+    background-color: black;
+    color: white;
   }
   
-@keyframes move {
-    from {
-        top: 0px;
-    }
+#links li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #6FD5B4;
+    padding: 10px;
+    border-radius: 10px ;
+    z-index: 10;
+    width: 100px;
+}
+
+#links:hover ul {
+    display: block; /* Show menu on hover */
+}
+
+#links li:hover {
+    background-color: #4CAF50; /* Change color on hover */
     
-    to{
-        top: 80px;
-    }
-  }
 }

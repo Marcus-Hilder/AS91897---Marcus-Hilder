@@ -1,0 +1,26 @@
+#links ul {
+    display: none; /* Hide the menu initially */
+    position: absolute;
+    top: 50px; /* Adjust positioning */
+    left: 0;
+    background-color: #6FD5B4;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+#links:hover ul {
+   x /* Show menu on hover */
+}
+
+#links li {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 5px;
+}
+
+#links li:hover {
+    background-color: #4CAF50; /* Change color on hover */
+}
