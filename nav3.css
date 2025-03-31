@@ -1,0 +1,53 @@
+header {
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+nav{
+    background-color: #6FD5B4;
+    height: 120px;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px ;
+}
+#titleBox{
+    height: 60px;
+    width: 1706.390px;
+    background-color: #d9d9d9;
+    text-align: center;
+    margin: 0px 90px 90px 90px;
+    border-radius: 05px 5px 20px 20px;
+}
+#titleBox.img{
+    width: 600px;
+    height: 60px;
+    
+}
+#yeet{margin: 0 125px 0 125px;
+    width: 1455px;
+    height: inherit;
+}
+#yeet li {
+    list-style: none;
+    float: left;
+    margin:0 11.5% 0 11.5% ;
+}
+
+button {
+    transition-duration: 0.4s;
+    float: left;
+    color: #FFFFFF;
+    background-color: #d9d9d9;
+    width: 148px;
+    height: 38px;
+    font-family: "Jersey 20", sans-serif;
+    font-size: 27px;
+    border-radius: 20px 20px 20px 20px;   
+    
+  }
+  
+button:hover {
+      
+    background-color: #04AA6D; /* Green */
+    color: white;
+}

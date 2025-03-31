@@ -76,6 +76,10 @@ header {
 
 #links:hover ul {
     display: block; /* Show menu on hover */
+    width: auto;
+    list-style: none;
+    transform: translateY(-10px);
+
 }
 
 #links li:hover {
