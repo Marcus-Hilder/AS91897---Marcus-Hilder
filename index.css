@@ -23,8 +23,7 @@ nav{
     height: 60px;
     
 }
-#yeet{
-    margin: 0 125px 0 125px;
+#yeet{margin: 0 125px 0 125px;
     width: 1455px;
     height: inherit;
 }
@@ -51,6 +50,47 @@ nav{
       
     background-color: #04AA6D; /* Green */
     color: white;
+}
+
+#team_moto{
+    width: 800px;
+    background-color: #9FBEEC;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px  #797979;
+    text-align: center;
+    height: auto;
+    font-size: 48px;
+    font-family: "Jersey 20", sans-serif;
+    float: left;
+    margin: 20px;
+}
+#team_moto h2{
+    margin: 0;
+}
+#team_moto_text{
+    font-size: 20px;
+    margin: 20px;
+}
+#photos{
+    width: 800px;
+    background-color: #9FBEEC;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px  #797979;
+    text-align: center;
+    height: auto;
+    font-size: 48px;
+    font-family: "Jersey 20", sans-serif;
+    float: left;
+    margin: 20px;
+}
+#photos h2{
+    margin: 0;
+}
+.thumb{
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border-radius: 10px ;
 }
 footer{
     margin-top: 1080px;

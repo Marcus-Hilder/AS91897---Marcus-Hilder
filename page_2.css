@@ -3,7 +3,7 @@ header {
     font-weight: 400;
     font-style: normal;
   }
-  
+  /* head*/
 nav{
     background-color: #6FD5B4;
     height: 120px;
@@ -52,6 +52,22 @@ nav{
     background-color: #04AA6D; /* Green */
     color: white;
 }
+/*body */
+#Body{
+    width: 83.3333%;
+    height: auto;
+    background-color: #9FBEEC;
+    border-radius: 20px;
+    margin:0 156.76px 0 156.76px ;
+}
+
+#p2_main{
+    text-align: center;
+}
+
+
+
+/* footer*/
 footer{
     margin-top: 1080px;
     float: left ;
