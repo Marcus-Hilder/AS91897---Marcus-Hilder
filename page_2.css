@@ -55,6 +55,7 @@ nav{
 /*body */
 #Body{
     width: 83.3333%;
+    
     height: auto;
     background-color: #9FBEEC;
     border-radius: 20px;
@@ -63,10 +64,49 @@ nav{
 
 #p2_main{
     text-align: center;
+    height: 622px;
+
 }
-
-
-
+#game{
+    width: 350px;
+    height: 458px;
+    background-color: #6FD5B4;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 10px;
+    margin: 28px;
+    box-shadow: 10px 10px 5px  #797979;
+}
+#date{
+    width: 140px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px 0 0 15px;
+    float: left;
+}
+#opposition{
+    width: 160px;
+    height: 39px;
+    padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px 0 0 15px;
+    float: left;
+}
+#venue{
+    width: 160px;
+    height: 39px;
+    padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px 0 0 15px;
+    float: left;
+}
 /* footer*/
 footer{
     margin-top: 1080px;
