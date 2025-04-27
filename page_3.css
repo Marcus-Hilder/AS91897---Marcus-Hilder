@@ -33,7 +33,146 @@ nav{
     float: left;
     margin:0 11.5% 0 11.5% ;
 }
+#game{
+    font-family: "Jersey 20", sans-serif;
+    width: 512px;
+    height: 608px;
+    background-color: #9FBEEC;
+    border-radius: 20px;
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+#game H1{
+    font-size: 50px;
+    margin: 0;
+}
+#outset{
+    
+    width: 350px;
+    height: 458px;
+    background-color: #6FD5B4;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 10px;
+    margin: 28px 0 0 70px;
+    box-shadow: 7px 7px 14px  #797979;
+    float: left;
+}
+#date{
+    width: 140px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#date p{
+    margin: 13px;
+    font-size: 18px;
+}
+#opposition{
+    width: 160px;
+    height: 39px;
+    padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#opposition p{
+    margin: 13px;
+    font-size: 18px;
+}
+#venue{
+    width: 160px;
+    height: 39px;
+    padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#venue p{
+    margin: 13px;
+    font-size: 18px;
+}
+#time{
+    width: 140px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#time p {
+    margin: 13px;
+    font-size: 18px;
+}
+#play{
+    width: 317px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#play p{
+    margin: 13px;
+    font-size: 18px;
+}
+#players{
+    width: 317px;
+    height: auto;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: left;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#players p {
+    margin: 0 0 0 10px;
+}
+#photos{
+    font-family: "Jersey 20", sans-serif;
+    width: 800px;
+    height: 600px;
+    background-color: #9FBEEC;
+    float: left;
+    border-radius: 20px;
+    margin: 20px 0 0 50px;
+    text-align: center;
+}
+#photos table{
+    margin: 0 0 20px 50px;
+}
+#photos img{
+    width: 165px;
+    height: 167px;
+}
 
+#photos H1{
+    font-size:      50px;
+    margin: 0;
+}
+
+/*footer*/
 .button_H {
     transition-duration: 0.4s;
     float: left;
@@ -53,7 +192,7 @@ nav{
     color: white;
 }
 footer{
-    margin-top: 1080px;
+    margin-top: 20px;
     float: left ;
     width:100%;
     background-color: #d9d9d9;
