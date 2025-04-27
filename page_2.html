@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script>
+        function toggleSection() {
+          const section = document.getElementById('hide');
+          if (section.style.display === 'none' || section.style.display === '') {
+            section.style.display = 'block';
+          } else {
+            section.style.display = 'none';
+          }
+          const section2 = document.getElementById('opp');
+          if (section2.style.display === 'block' || section2.style.display === '') {
+            section2.style.display = 'none';
+          } else {
+            section2.style.display = 'block';
+        }
+    }
+      </script>
 </head>
 <header >
     <nav>
@@ -33,7 +49,7 @@
             <H1>UP COMING</H1>
             <div id="game">
                 <div  id="date">
-                    <p>22/03/2025</p>
+                    <p>04/05/2025</p>
                 </div>
                 <div id="opposition">
                     <p>VS Takapuna fc</p>
@@ -69,12 +85,284 @@
 
             </div>
             <div id="game_2">
+                <div  id="date">
+                    <p>11/04/2025</p>
+                </div>
+                <div id="opposition">
+                    <p>VS Rovers fc</p>
+                </div>
+                <div id="venue">
+                    <p>@Greenhive fc</p>
+                </div>
+                <div id="time">
+                    <p>@15:00</p>
+                </div>
+                <div id="play">
+                    <p>who’s playing</p>
+                </div>
+                <div id="players">
+                    <p>GK (Goalkeeper): Liam Robinson<br>
+                        RB (Right Back): Leo Harrison<br>
+                        CB (Center Back): Samuel Davies<br>
+                        CB (Center Back): Oliver Reed<br>
+                        LB (Left Back): Daniel Foster<br>
+                        CM (Central Midfielder): Lucas Walker<br>
+                        CM (Central Midfielder): Max Thompson<br>
+                        CAM (Attacking Midfielder): Noah Adams<br>
+                        RW (Right Wing): Sebastian Clarke<br>
+                        ST (Striker): Benjamin Hayes<br>
+                        LW (Left Wing): Jack Sullivan <br>
+                        Substitutes:<br>
+                        GK (Goalkeeper):  Ethan Carter<br>
+                        CB (Center Back): James Bennett<br>
+                        CM (Central Midfielder): Isaac Turner<br>
+                        ST (Striker): Henry Mitchell<br>
+                </div>
 
             </div>
             <div id="game_3">
-
+                <div  id="date">
+                    <p>25/04/2025</p>
+                </div>
+                <div id="opposition">
+                    <p>VS Glen Innes fc</p>
+                </div>
+                <div id="venue">
+                    <p>@Takapuna fc</p>
+                </div>
+                <div id="time">
+                    <p>@09:30</p>
+                </div>
+                <div id="play">
+                    <p>who’s playing</p>
+                </div>
+                <div id="players">
+                    <p>GK (Goalkeeper): Liam Robinson<br>
+                        RB (Right Back): Leo Harrison<br>
+                        CB (Center Back): Samuel Davies<br>
+                        CB (Center Back): James Bennett<br>
+                        LB (Left Back): Daniel Foster<br>
+                        CM (Central Midfielder): Isaac Turner<br>
+                        CM (Central Midfielder): Max Thompson<br>
+                        CAM (Attacking Midfielder): Noah Adams<br>
+                        RW (Right Wing): Sebastian Clarke<br>
+                        ST (Striker): Benjamin Hayes<br>
+                        LW (Left Wing): Jack Sullivan <br>
+                        Substitutes:<br>
+                        GK (Goalkeeper):  Ethan Carter<br>
+                        CB (Center Back): Oliver Reed<br>
+                        CM (Central Midfielder): Lucas Walker<br>
+                        ST (Striker): Henry Mitchell<br>
+                </div>
             </div>
         </div>
+        
+    </section>
+    <section id="Hist">
+        
+        <div id="p2_Hist">
+            <H2>Past Games</H2>
+            <button id="opp" onclick="toggleSection()"><img src="resources/down_ar.svg" alt="reveal more infomation"></button>
+            
+            <div id="hide">
+                
+                <div id="gameV2">
+                    <div  id="date">
+                        <p>08/03/2025</p>
+                    </div>
+                    <div id="opposition">
+                        <p>VS Auckland fc</p>
+                    </div>
+                    <div id="venue">
+                        <p>@Takapuna fc</p>
+                    </div>
+                    <div id="time">
+                        <p>@15:50</p>
+                    </div>
+                    <div id="play">
+                        <p>who’s playing</p>
+                    </div>
+                    <div id="players">
+                        <p>GK (Goalkeeper): Ethan Carter<br>
+                            RB (Right Back): Leo Harrison<br>
+                            CB (Center Back): James Bennett<br>
+                            CB (Center Back): Oliver Reed<br>
+                            LB (Left Back): Daniel Foster<br>
+                            CM (Central Midfielder): Lucas Walker<br>
+                            CM (Central Midfielder): Max Thompson<br>
+                            CAM (Attacking Midfielder): Noah Adams<br>
+                            RW (Right Wing): Sebastian Clarke<br>
+                            ST (Striker): Benjamin Hayes<br>
+                            LW (Left Wing): Henry Mitchell<br>
+                            Substitutes:<br>
+                            GK (Goalkeeper): Liam Robinson<br>
+                            CB (Center Back): Samuel Davies<br>
+                            CM (Central Midfielder): Isaac Turner<br>
+                            ST (Striker): Jack Sullivan</p>
+                    </div>
+                    <div id="statsT">
+                        <p>Game Stats</p>
+                    </div>
+                    <div id="f-t-s">
+                        <p>Full Time Score</p>
+                    </div>
+                    <div id="fullTimeScore">
+                        <p>
+                            Greenhive FC 2 - 10 Auckland FC
+                        </p>
+                    </div>
+                    <div id="gs"><p>
+                        Goal Scorers</p>
+                    </div>
+                    <div id="Home"> 
+                        Greenhive FC:<br>
+                        Benjamin Hayes (32')<br>
+                        
+                        Jack Sullivan (68')
+                    </div>
+                    <div id="Away">
+                        Auckland FC:<br>
+                        (player) (2')
+                        (player) (12')
+                        (player) (18')
+                        (player) (32')
+                        (player) (40')
+                        (player) (50')
+                        (player) (52')
+                        (player) (60')
+                        (player) (67')
+                        (player) (80')
+                    </div>
+
+                </div>
+                <div id="game_2V2">
+                    <div  id="date">
+                        <p>15/03/2025</p>
+                    </div>
+                    <div id="opposition">
+                        <p>VS Glenfeild fc</p>
+                    </div>
+                    <div id="venue">
+                        <p>@ Glenfeild fc</p>
+                    </div>
+                    <div id="time">
+                        <p>@09:00</p>
+                    </div>
+                    <div id="play">
+                        <p>who’s playing</p>
+                    </div>
+                    <div id="players">
+                        <p>GK (Goalkeeper): Ethan Carter<br>
+                            RB (Right Back): Leo Harrison<br>
+                            CB (Center Back): James Bennett<br>
+                            CB (Center Back): Oliver Reed<br>
+                            LB (Left Back): Daniel Foster<br>
+                            CM (Central Midfielder): Lucas Walker<br>
+                            CM (Central Midfielder): Isaac Turner<br>
+                            CAM (Attacking Midfielder): Noah Adams<br>
+                            RW (Right Wing): Sebastian Clarke<br>
+                            ST (Striker): Jack Sullivan<br>
+                            LW (Left Wing): Henry Mitchell<br>
+                            Substitutes:<br>
+                            GK (Goalkeeper): Liam Robinson<br>
+                            CB (Center Back): Samuel Davies<br>
+                            CM (Central Midfielder): Max Thompson<br>
+                            ST (Striker): Benjamin Hayes</p>
+                    </div>
+                    <div id="statsT">
+                        <p>Game Stats</p>
+                    </div>
+                    <div id="f-t-s">
+                        <p>Full Time Score</p>
+                    </div>
+                    <div id="fullTimeScore">
+                        <p>
+                            Greenhive FC 1 - 1 Glenfeild FC
+                        </p>
+                    </div>
+                    <div id="gs"><p>
+                        Goal Scorers</p>
+                    </div>
+                    <div id="Home"> 
+                        Greenhive FC:<br>
+                        Benjamin Hayes (32')
+                        
+                        
+                    </div>
+                    <div id="Away">
+                        Glenfeild:<br>
+                        
+                        (player) (25')
+                    </div>
+                </div>
+                <div id="game_3V2">
+                    <div  id="date">
+                        <p>22/03/2025</p>
+                    </div>
+                    <div id="opposition">
+                        <p>VS Takapuna fc</p>
+                    </div>
+                    <div id="venue">
+                        <p>@Takapuna fc</p>
+                    </div>
+                    <div id="time">
+                        <p>@11:20</p>
+                    </div>
+                    <div id="play">
+                        <p>who’s playing</p>
+                    </div>
+                    <div id="players">
+                        <p>GK (Goalkeeper): Ethan Carter<br>
+                            RB (Right Back): Leo Harrison<br>
+                            CB (Center Back): James Bennett<br>
+                            CB (Center Back): Oliver Reed<br>
+                            LB (Left Back): Daniel Foster<br>
+                            CM (Central Midfielder): Lucas Walker<br>
+                            CM (Central Midfielder): Max Thompson<br>
+                            CAM (Attacking Midfielder): Noah Adams<br>
+                            RW (Right Wing): Sebastian Clarke<br>
+                            ST (Striker): Benjamin Hayes<br>
+                            LW (Left Wing): Henry Mitchell<br>
+                            Substitutes:<br>
+                            GK (Goalkeeper): Liam Robinson<br>
+                            CB (Center Back): Samuel Davies<br>
+                            CM (Central Midfielder): Isaac Turner<br>
+                            ST (Striker): Jack Sullivan</p>
+                    </div>
+                    <div id="statsT">
+                        <p>Game Stats</p>
+                    </div>
+                    <div id="f-t-s">
+                        <p>Full Time Score</p>
+                    </div>
+                    <div id="fullTimeScore">
+                        <p>
+                            Greenhive FC 2 - 1 Rovers FC
+                        </p>
+                    </div>
+                    <div id="gs"><p>
+                        Goal Scorers</p>
+                    </div>
+                    <div id="Home"> 
+                        Greenhive FC:<br>
+                        Benjamin Hayes (32')<br>
+                        
+                        Jack Sullivan (68')
+                    </div>
+                    <div id="Away">
+                        Rovers FC:<br>
+                        
+                        (Penalty) (45+2')
+                    </div>
+                </div>
+                <div>
+                    <button class="reveal"  onclick="toggleSection()"><img src="resources/up_ar.svg" alt=""></button>
+                </div>
+            </div>
+
+                
+        </div>
+
     </section>
 </body>
 <footer>

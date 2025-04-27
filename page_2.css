@@ -55,17 +55,22 @@ nav{
 /*body */
 #Body{
     width: 83.3333%;
-    
     height: auto;
     background-color: #9FBEEC;
     border-radius: 20px;
-    margin:0 156.76px 0 156.76px ;
+    margin: 50px 156.76px 0 156.76px;
 }
 
 #p2_main{
     text-align: center;
     height: 622px;
+    width: 100%;
+    
 
+}
+#p2_main h1{
+    font-size: 50px;
+    margin: 0;
 }
 #game{
     width: 350px;
@@ -74,8 +79,33 @@ nav{
     border-radius: 10px;
     border-color: #000;
     border-width: 10px;
+    margin: 28px 28px 0 205px;
+    box-shadow: 7px 7px 14px  #797979;
+    float: left;
+    
+}
+#game_2{
+    width: 350px;
+    height: 458px;
+    background-color: #6FD5B4;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 10px;
     margin: 28px;
-    box-shadow: 10px 10px 5px  #797979;
+    box-shadow: 7px 7px 14px  #797979;
+    float: left;
+    
+}
+#game_3{
+    width: 350px;
+    height: 458px;
+    background-color: #6FD5B4;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 10px;
+    margin: 28px;
+    box-shadow: 7px 7px 14px  #797979;
+    float: left;
 }
 #date{
     width: 140px;
@@ -84,8 +114,13 @@ nav{
     background-color: #9BEDD2;
     border-radius: 10px;
     text-align: center;
-    margin: 15px 0 0 15px;
+    margin: 12px 0 0 15px;
     float: left;
+    border: 1.5px solid black;
+}
+#date p{
+    margin: 13px;
+    font-size: 18px;
 }
 #opposition{
     width: 160px;
@@ -94,8 +129,13 @@ nav{
     background-color: #9BEDD2;
     border-radius: 10px;
     text-align: center;
-    margin: 15px 0 0 15px;
+    margin: 12px 0 0 15px;
     float: left;
+    border: 1.5px solid black;
+}
+#opposition p{
+    margin: 13px;
+    font-size: 18px;
 }
 #venue{
     width: 160px;
@@ -104,12 +144,228 @@ nav{
     background-color: #9BEDD2;
     border-radius: 10px;
     text-align: center;
-    margin: 15px 0 0 15px;
+    margin: 12px 0 0 15px;
     float: left;
+    border: 1.5px solid black;
+}
+#venue p{
+    margin: 13px;
+    font-size: 18px;
+}
+#time{
+    width: 140px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#time p {
+    margin: 13px;
+    font-size: 18px;
+}
+#play{
+    width: 317px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#play p{
+    margin: 13px;
+    font-size: 18px;
+}
+#players{
+    width: 317px;
+    height: auto;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: left;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#players p {
+    margin: 0 0 0 10px;
+}
+/* reveling / hiding of past games*/    
+#Hist{
+    width: 83.3333%;
+    height: auto;
+    background-color: #9FBEEC;
+    border-radius: 20px;
+    margin:50px 156.76px 0 156.76px ;
+    
+}
+#p2_Hist{
+    text-align: center;
+    height: 120px;
+    width: 100%;
+}
+#p2_Hist H2{
+    font-size: 50px;
+    margin: 0;
+}
+#hide{
+   height: 600px;
+    display: none;
+    background-color: #9FBEEC;
+    border-radius: 20px;
+    animation: 1s;
+}
+
+#opp{
+    display: block;
+    float: left;
+    margin-left: 49%;
+    background-color: #9FBEEC;
+    border: none;
+}
+#opp img{
+    width: 50px;
+    height: auto;
+}
+#gameV2{
+    width: 350px;
+    height: 750px;
+    background-color: #6FD5B4;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 10px;
+    margin: 28px 28px 0 205px;
+    box-shadow: 7px 7px 14px  #797979;
+    float: left;
+}
+#game_2V2{
+    width: 350px;
+    height: 750px;
+    background-color: #6FD5B4;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 10px;
+    margin: 28px;
+    box-shadow: 7px 7px 14px  #797979;
+    float: left;
+}
+#game_3V2{
+    width: 350px;
+    height: 750px;
+    background-color: #6FD5B4;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 10px;
+    margin: 28px;
+    box-shadow: 7px 7px 14px  #797979;
+    float: left;
+}
+
+.reveal{
+    background-color: #9FBEEC;
+    border: none;
+}
+
+#statsT{
+    width: 317px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#statsT p{
+    margin: 8px;
+    font-size: 27px;
+}
+#f-t-s{
+    width: 317px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#f-t-s p{
+    margin: 10px;
+    font-size: 25px;
+}
+#fullTimeScore{
+    width: 317px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#fullTimeScore p{
+    margin: 13px;
+    font-size: 18px;
+}
+#gs{
+    width: 317px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#gs p{
+    margin: 13px;
+    font-size: 18px;
+}
+#Home{
+    width: 150px;
+    height: 45px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#Home p{
+    margin: 13px;
+    font-size: 18px;
+
+}
+#Away{
+    width: 150px;
+    height: 45px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#Away p{
+    margin: 13px;
+    font-size: 18px;
 }
 /* footer*/
 footer{
-    margin-top: 1080px;
+    
     float: left ;
     width:100%;
     background-color: #d9d9d9;
