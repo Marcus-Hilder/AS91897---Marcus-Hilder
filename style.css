@@ -1,0 +1,683 @@
+header {
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+nav{
+    background-color: #6FD5B4;
+    height: 120px;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px ;
+}
+#titleBox{
+    height: 60px;
+    width: 1706.390px;
+    background-color: #d9d9d9;
+    text-align: center;
+    margin: 0px 90px 90px 90px;
+    border-radius: 05px 5px 20px 20px;
+}
+#titleBox.img{
+    width: 600px;
+    height: 60px;
+    
+}
+#yeet{margin: 0 125px 0 125px;
+    width: 1455px;
+    height: inherit;
+}
+#yeet li {
+    list-style: none;
+    float: left;
+    margin:0 11.5% 0 11.5% ;
+}
+
+.button_H {
+    transition-duration: 0.4s;
+    float: left;
+    color: #FFFFFF;
+    background-color: #d9d9d9;
+    width: 148px;
+    height: 38px;
+    font-family: "Jersey 20", sans-serif;
+    font-size: 27px;    
+    border-radius: 20px 20px 20px 20px;   
+    
+  }
+  
+.button_H:hover {
+      
+    background-color: #04AA6D; /* Green */
+    color: white;
+}
+
+#team_moto{
+    width: 800px;
+    background-color: #9FBEEC;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px  #797979;
+    text-align: center;
+    height: auto;
+    font-size: 48px;
+    font-family: "Jersey 20", sans-serif;
+    float: left;
+    margin: 20px;
+}
+#team_moto h2{
+    margin: 0;
+}
+#team_moto_text{
+    font-size: 20px;
+    margin: 20px;
+}
+#photos{
+    width: 800px;
+    background-color: #9FBEEC;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px  #797979;
+    text-align: center;
+    height: auto;
+    font-size: 48px;
+    font-family: "Jersey 20", sans-serif;
+    float: left;
+    margin: 20px;
+}
+#photos h2{
+    margin: 0;
+}
+.thumb{
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border-radius: 10px ;
+}
+footer{
+    margin-top: 20px;
+    float: left ;
+    width:100%;
+    background-color: #d9d9d9;
+    border-radius: 20px 20px 0 0 ;
+}
+footer li{
+    list-style: none;
+    float: left;
+    
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
+#footer_link{
+    margin: 0 100px 0 100px;
+    width: 100% ;
+    height: inherit;
+}
+#footer_link li {
+    list-style: none;
+    float: right;
+    margin:0 10% 0 10% ;
+}
+.button_F {
+    transition-duration: 0.4s;
+    float: left;
+    color: #FFFFFF;
+    background-color: #d9d9d9;
+    width: 148px;
+    height: 38px;
+    font-family: "Jersey 20", sans-serif;
+    font-size: 27px;    
+    border-radius: 20px 20px 20px 20px;   
+    
+  }
+  
+.button_F:hover {
+      
+    background-color: #04AA6D; /* Green */
+    color: white;
+    }
+
+    header {
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* head*/
+nav{
+    background-color: #6FD5B4;
+    height: 120px;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px ;
+}
+#titleBox{
+    height: 60px;
+    width: 1706.390px;
+    background-color: #d9d9d9;
+    text-align: center;
+    margin: 0px 90px 90px 90px;
+    border-radius: 05px 5px 20px 20px;
+}
+#titleBox.img{
+    width: 600px;
+    height: 60px;
+    
+}
+#yeet{
+    margin: 0 125px 0 125px;
+    width: 1455px;
+    height: inherit;
+}
+#yeet li {
+    list-style: none;
+    float: left;
+    margin:0 11.5% 0 11.5% ;
+}
+
+.button_H {
+    transition-duration: 0.4s;
+    float: left;
+    color: #FFFFFF;
+    background-color: #d9d9d9;
+    width: 148px;
+    height: 38px;
+    font-family: "Jersey 20", sans-serif;
+    font-size: 27px;    
+    border-radius: 20px 20px 20px 20px;   
+    
+  }
+  
+.button_H:hover {
+      
+    background-color: #04AA6D; /* Green */
+    color: white;
+}
+/*body */
+#Body{
+    width: 83.3333%;
+    height: auto;
+    background-color: #9FBEEC;
+    border-radius: 20px;
+    margin: 50px 156.76px 0 156.76px;
+}
+
+#p2_main{
+    text-align: center;
+    height: 622px;
+    width: 100%;
+    
+
+}
+#p2_main h1{
+    font-size: 50px;
+    margin: 0;
+}
+#game{
+    width: 350px;
+    height: 458px;
+    background-color: #6FD5B4;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 10px;
+    margin: 28px 28px 0 205px;
+    box-shadow: 7px 7px 14px  #797979;
+    float: left;
+    
+}
+#game_2{
+    width: 350px;
+    height: 458px;
+    background-color: #6FD5B4;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 10px;
+    margin: 28px;
+    box-shadow: 7px 7px 14px  #797979;
+    float: left;
+    
+}
+#game_3{
+    width: 350px;
+    height: 458px;
+    background-color: #6FD5B4;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 10px;
+    margin: 28px;
+    box-shadow: 7px 7px 14px  #797979;
+    float: left;
+}
+#date{
+    width: 140px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#date p{
+    margin: 13px;
+    font-size: 18px;
+}
+#opposition{
+    width: 160px;
+    height: 39px;
+    padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#opposition p{
+    margin: 13px;
+    font-size: 18px;
+}
+#venue{
+    width: 160px;
+    height: 39px;
+    padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#venue p{
+    margin: 13px;
+    font-size: 18px;
+}
+#time{
+    width: 140px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#time p {
+    margin: 13px;
+    font-size: 18px;
+}
+#play{
+    width: 317px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#play p{
+    margin: 13px;
+    font-size: 18px;
+}
+#players{
+    width: 317px;
+    height: auto;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: left;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#players p {
+    margin: 0 0 0 10px;
+}
+/* reveling / hiding of past games*/    
+#Hist{
+    width: 83.3333%;
+    height: auto;
+    background-color: #9FBEEC;
+    border-radius: 20px;
+    margin:50px 156.76px 0 156.76px ;
+    
+}
+#p2_Hist{
+    text-align: center;
+    height: 120px;
+    width: 100%;
+}
+#p2_Hist H2{
+    font-size: 50px;
+    margin: 0;
+}
+#hide{
+   height: 800px;
+    display: none;
+    background-color: #9FBEEC;
+    border-radius: 20px; 
+}
+#hide img{
+    width: 50px;
+    height: auto;
+}
+
+#opp{
+    display: block;
+    float: left;
+    margin-left: 49%;
+    background-color: #9FBEEC;
+    border: none;
+}
+#opp img{
+    width: 50px;
+    height: auto;
+}
+#gameV2{
+    width: 350px;
+    height: 750px;
+    background-color: #6FD5B4;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 10px;
+    margin: 28px 28px 0 205px;
+    box-shadow: 7px 7px 14px  #797979;
+    float: left;
+}
+#game_2V2{
+    width: 350px;
+    height: 750px;
+    background-color: #6FD5B4;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 10px;
+    margin: 28px;
+    box-shadow: 7px 7px 14px  #797979;
+    float: left;
+}
+#game_3V2{
+    width: 350px;
+    height: 750px;
+    background-color: #6FD5B4;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 10px;
+    margin: 28px;
+    box-shadow: 7px 7px 14px  #797979;
+    float: left;
+}
+
+.reveal{
+    background-color: #9FBEEC;
+    border: none;
+}
+
+#statsT{
+    width: 317px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#statsT p{
+    margin: 8px;
+    font-size: 27px;
+}
+#f-t-s{
+    width: 317px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#f-t-s p{
+    margin: 10px;
+    font-size: 25px;
+}
+#fullTimeScore{
+    width: 317px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#fullTimeScore p{
+    margin: 13px;
+    font-size: 18px;
+}
+#gs{
+    width: 317px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#gs p{
+    margin: 13px;
+    font-size: 18px;
+}
+#Home{
+    width: 150px;
+    height: 45px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#Home p{
+    margin: 13px;
+    font-size: 18px;
+
+}
+#Away{
+    width: 150px;
+    height: 45px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#Away p{
+    margin: 13px;
+    font-size: 18px;
+}
+
+header {
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+nav{
+    background-color: #6FD5B4;
+    height: 120px;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px ;
+}
+#titleBox{
+    height: 60px;
+    width: 1706.390px;
+    background-color: #d9d9d9;
+    text-align: center;
+    margin: 0px 90px 90px 90px;
+    border-radius: 05px 5px 20px 20px;
+}
+#titleBox.img{
+    width: 600px;
+    height: 60px;
+    
+}
+#yeet{
+    margin: 0 125px 0 125px;
+    width: 1455px;
+    height: inherit;
+}
+#yeet li {
+    list-style: none;
+    float: left;
+    margin:0 11.5% 0 11.5% ;
+}
+#game2{
+    font-family: "Jersey 20", sans-serif;
+    width: 512px;
+    height: 608px;
+    background-color: #9FBEEC;
+    border-radius: 20px;
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+#game2 H1{
+    font-size: 50px;
+    margin: 0;
+}
+#outset{
+    
+    width: 350px;
+    height: 458px;
+    background-color: #6FD5B4;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 10px;
+    margin: 28px 0 0 70px;
+    box-shadow: 7px 7px 14px  #797979;
+    float: left;
+}
+#date{
+    width: 140px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#date p{
+    margin: 13px;
+    font-size: 18px;
+}
+#opposition{
+    width: 160px;
+    height: 39px;
+    padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#opposition p{
+    margin: 13px;
+    font-size: 18px;
+}
+#venue{
+    width: 160px;
+    height: 39px;
+    padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#venue p{
+    margin: 13px;
+    font-size: 18px;
+}
+#time{
+    width: 140px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#time p {
+    margin: 13px;
+    font-size: 18px;
+}
+#play{
+    width: 317px;
+    height: 39px;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#play p{
+    margin: 13px;
+    font-size: 18px;
+}
+#players{
+    width: 317px;
+    height: auto;
+   padding-bottom: 5px;
+    background-color: #9BEDD2;
+    border-radius: 10px;
+    text-align: left;
+    margin: 12px 0 0 15px;
+    float: left;
+    border: 1.5px solid black;
+}
+#players p {
+    margin: 0 0 0 10px;
+}
+#photos3{
+    font-family: "Jersey 20", sans-serif;
+    width: 800px;
+    height: 600px;
+    background-color: #9FBEEC;
+    float: left;
+    border-radius: 20px;
+    margin: 20px 0 0 50px;
+    text-align: center;
+}
+#photos3 table{
+    margin: 0 0 20px 50px;
+}
+#photos3 img{
+    width: 165px;
+    height: 167px;
+    border-radius: 10px;
+    box-shadow: 3px 3px .5px  #797979;
+}
+
+#photos3 H1{
+    font-size:      50px;
+    margin: 0;
+}
